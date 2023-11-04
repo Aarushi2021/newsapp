@@ -1,0 +1,29 @@
+/* Navbar.css */
+
+.navbar { display:flex;
+    justify-content: center;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px; /* Add padding or spacing as needed */
+  }
+  
+  ul { 
+    list-style: none;
+    padding: 0;
+  }
+  
+  li { 
+    display: inline;
+    margin-right: 20px; /* Add margin between navbar items */
+  }
+  
+  a { margin-right:10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .active-link {
+    font-weight: bold; /* Style the active link differently */
+    color: #f00; /* Customize the active link color */
+  }
+  
